@@ -9,7 +9,7 @@ function App() {
       <Navbar />
 
       {/* Content */}
-      {/* <HomePage /> */}
+      <HomePage />
 
       {/* Footer */}
       {/* <Footer /> */}
