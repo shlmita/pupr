@@ -67,8 +67,8 @@ const Navbar = () => {
                             <a href="#" className="font-medium opacity-75">BUKU TAMU</a>
                       </li>
                   </ul>
-                  <div className="social flex items-center gap-2">
-                      <a href="#" className="bg-sky-700 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-900 transition-all">Social Media</a>
+                  <div className="social flex items-center gap-3">
+                      <a href="#" className="bg-sky-700 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-900 transition-all text-center ">Social Media</a>
                       <i className="ri-menu-3-line text-3xl md:hidden block o" onClick={handleClick}></i>
                   </div>
               </div>
