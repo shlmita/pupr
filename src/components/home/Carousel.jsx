@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import gambar1 from "../../../src/assets/images/proyek-1.jpg";
 
 const slides = [
-    { image: {gambar1}, title: "Judul Slide 1", description: "Deskripsi singkat slide pertama." },
+    { image: gambar1, title: "Judul Slide 1", description: "Deskripsi singkat slide pertama." },
     { image: "/src/assets/images/proyek-2.jpeg", title: "Judul Slide 2", description: "Deskripsi singkat slide kedua." },
 ];
 
