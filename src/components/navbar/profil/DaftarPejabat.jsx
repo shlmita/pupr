@@ -13,7 +13,7 @@ function Tupoksi() {
                 Daftar Pejabat
               </h1>
               <a
-                href="https://pupr-cdsnh1ql9-shlmitas-projects.vercel.app/Draft%20Pejabat%20PUPR.pdf"
+                href="/Draft_Pejabat_PUPR.pdf" 
                 download
                 className="px-5 py-2 text-sm md:text-base font-medium text-white bg-sky-800 rounded-lg hover:bg-sky-950 transition-all duration-300"
               >
