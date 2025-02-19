@@ -22,7 +22,7 @@ function Tupoksi() {
             </div>
             {/* Konten PDF */}
             <iframe
-              src="/public/Draft Pejabat PUPR.pdf"
+              src="/Draft Pejabat PUPR.pdf"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] rounded-lg border-2 border-gray-300"
               title="PDF Viewer"
             />
