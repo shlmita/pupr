@@ -35,7 +35,7 @@ export default function VideoDetail() {
       <h1 className="text-2xl font-bold mb-2 uppercase text-center">{video.title}</h1>
       <p className="text-gray-600 mb-4 text-center">Tanggal: {new Date(video.created_at).toLocaleDateString()}</p>
       
-      <div className="mx-28 border rounded p-4 bg-gray-100">
+      <div className="border rounded p-4 bg-gray-100">
       {video.video.includes("youtube.com") || video.video.includes("youtu.be") ? (
         <iframe 
           src={`https://www.youtube.com/embed/${getYouTubeID(video.video)}`} 
