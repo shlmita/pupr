@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      extend: {},
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'dots': "url('/wiggle.svg')", // Tambahkan path gambar pattern
+      },
     },
-    plugins: [],
-}
+  },
+  plugins: [require('tailwind-scrollbar-hide')],
+};

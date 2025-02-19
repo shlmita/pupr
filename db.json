@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Contoh Berita 1",
+      "content": "Ini adalah konten berita pertama.",
+      "media": "https://via.placeholder.com/300"
+    },
+    {
+      "id": 2,
+      "title": "Contoh Berita 2",
+      "content": "Konten berita kedua yang lebih panjang.",
+      "media": null
+    },
+    {
+      "id": 3,
+      "title": "Contoh Berita 3",
+      "content": "Berita dengan video.",
+      "media": "https://www.w3schools.com/html/mov_bbb.mp4"
+    },
+    {
+      "id": "12aa",
+      "title": "halo ini tes",
+      "content": "jadi ini buat tes aja sih, kayak coba coba gituuu",
+      "media": ""
+    }
+  ]
+}
