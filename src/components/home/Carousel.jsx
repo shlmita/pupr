@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const slides = [
-    { image: "/public/proyek-1.jpg", title: "Judul Slide 1", description: "Deskripsi singkat slide pertama." },
-    { image: "/public/proyek-2.jpeg", title: "Judul Slide 2", description: "Deskripsi singkat slide kedua." },
+    { image: "/proyek-1.jpg", title: "Judul Slide 1", description: "Deskripsi singkat slide pertama." },
+    { image: "/proyek-2.jpeg", title: "Judul Slide 2", description: "Deskripsi singkat slide kedua." },
 ];
 
 const Carousel = () => {
