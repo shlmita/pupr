@@ -8,7 +8,6 @@ import Tupoksi from "./components/navbar/profil/Tupoksi";
 import RencanaStra from "./components/navbar/profil/RencanaStra";
 import AdminLogin from "./pages/admin/Login";
 import Dashboard from "./pages/admin/Dashboard";
-import Users from "./pages/admin/Users";
 import News from "./pages/admin/News";
 import Settings from "./pages/admin/Settings";
 import NewsDetail from "./components/home/NewsDetail";
@@ -26,6 +25,9 @@ import ArtikelUs from "./components/navbar/info/Artikel";
 import Video from "./pages/admin/Video";
 import VideoDetail from "./components/navbar/info/VideoDetail";
 import VideoUs from "./components/navbar/info/Video";
+import BukuTamu from "./pages/admin/BukuTamu";
+import BukuTamuUs from "./components/navbar/BukuTamu";
+
 
 
 
@@ -50,6 +52,7 @@ function App() {
           <Route path="info/artikel" element={<ArtikelUs />} />
           <Route path="/video/:id" element={<VideoDetail />} />
           <Route path="info/video" element={<VideoUs />} />
+          <Route path="bukutamu" element={<BukuTamuUs />} />
         </Route>
 
         {/* Rute untuk Admin */}
@@ -63,7 +66,7 @@ function App() {
           }
         >
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="users" element={<Users />} />
+          <Route path="bukutamu" element={<BukuTamu />} />
           <Route path="news" element={<News />} />
           <Route path="workplan" element={<Workplan />} />
           <Route path="publikasi" element={<Publikasi />} />

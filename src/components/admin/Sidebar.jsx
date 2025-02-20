@@ -7,7 +7,7 @@ const Sidebar = () => {
 
   const links = [
     { name: "Dashboard", path: "/admin/dashboard", icon: <Home size={20} /> },
-    { name: "Kelola Pengguna", path: "/admin/users", icon: <Users size={20} /> },
+    { name: "Kelola Pengguna", path: "/admin/bukutamu", icon: <Users size={20} /> },
     { name: "Kelola Berita", path: "/admin/news", icon: <FileText size={20} /> },
     { name: "Kelola Rencana Kerja", path: "/admin/workplan", icon: <ClipboardList size={20} /> },
     { name: "Publikasi", path: "/admin/publikasi", icon: <BookOpen size={20} /> },

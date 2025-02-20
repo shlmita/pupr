@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import logo from '../assets/logo.png';
-import Footer from './Footer';
-
+import BukuTamu from './navbar/BukuTamu';
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -241,7 +240,7 @@ const Navbar = () => {
                         {/* Buku Tamu */}
                         <li className='flex items-center gap-1'>
                             <i className="ri-book-marked-line text-3xl md:hidden block"></i>
-                            <a href="#" className="font-medium flex item-center">BUKU TAMU</a>
+                            <a href="/bukutamu" className="font-medium flex item-center">BUKU TAMU</a>
                         </li>
                     </ul>
                     <div className="social flex items-center gap-3">

@@ -77,7 +77,7 @@ const Footer = () => {
                         <p className="flex items-center justify-center gap-2">
                           <FaEnvelope />
                             <a href="dpupr.grobogan@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
-                                mail.dpupr-grobogan.go.id
+                                dpupr.grobogan@gmail.com
                             </a>
                         </p>
                         <p className="flex items-center justify-center gap-2">
