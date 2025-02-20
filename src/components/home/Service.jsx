@@ -9,8 +9,8 @@ const Service = () => {
     { id: 4, title: "Data", desc: "Statistik dan data publik.", icon: <Database />, link: "https://example.com/data" },
     { id: 5, title: "Bidang", desc: "Struktur dan bidang kerja.", icon: <Briefcase />, link: "https://example.com/bidang" },
     { id: 6, title: "PPID", desc: "Pejabat Pengelola Informasi.", icon: <Folder />, link: "https://example.com/ppid" },
-    { id: 7, title: "Buku Tamu", desc: "Catatan tamu dan saran.", icon: <BookOpen />, link: "https://example.com/buku-tamu" },
-    { id: 8, title: "Kontak Kami", desc: "Hubungi kami dengan mudah.", icon: <Mail />, link: "https://pupr-eta.vercel.app/bukutamu" },
+    { id: 7, title: "Buku Tamu", desc: "Catatan tamu dan saran.", icon: <BookOpen />, link: "/bukutamu" },
+    { id: 8, title: "Kontak Kami", desc: "Hubungi kami dengan mudah.", icon: <Mail />, link: "https://example.com/kontak" },
     { id: 9, title: "SIDAMBA", desc: "Sistem Informasi Data Aset Jembatan.", icon: <Landmark />, link: "https://sidamba.dpupr.grobogan.go.id/" },
   ];
 
