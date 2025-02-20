@@ -40,7 +40,7 @@ export default function VideoDetail() {
         <iframe 
           src={`https://www.youtube.com/embed/${getYouTubeID(video.video)}`} 
           title={video.title} 
-          className="w-full h-96"
+          className="w-full lg:h-96 h-full"
           allowFullScreen
         />
       ) : (
