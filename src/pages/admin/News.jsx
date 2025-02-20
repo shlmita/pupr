@@ -140,7 +140,7 @@ const News = () => {
             {newsList.map((news) => (
               <tr key={news.id} className="border hover:bg-gray-100 transition-all">
                 <td className="p-3 border">{news.title}</td>
-                <td className="p-3 border">{news.content}</td>
+                <td className="p-3 border">{news.content.length > 90 ? news.content.slice(0, 90) + '...' : news.content}</td>
                 <td className="p-3 border">{news.thumbnail && <img src={news.thumbnail} alt="Thumbnail" className="w-16 h-16 object-cover rounded-lg" />}</td>
                 <td className="p-3 border">{news.media ? <a href={news.media} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Lihat Media</a> : "-"}</td>
                 <td className="p-3 border flex space-x-2">
