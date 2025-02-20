@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { supabase } from "../../../supabase/supabaseClient";
 import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
+import ReactMarkdown from "react-markdown";
 
 const ArtikelDetail = () => {
   const { id } = useParams();
@@ -20,7 +21,12 @@ const ArtikelDetail = () => {
 
       if (error) console.error("Error fetching article:", error);
       else {
-        setArtikel(data);
+        setArtikel({
+          ...data,
+          posisi_gambar1: data.posisi_gambar1 || "atas",
+          posisi_gambar2: data.posisi_gambar2 || "atas",
+          posisi_gambar3: data.posisi_gambar3 || "atas",
+        });
         setLikes(data.likes || 0);
         setDislikes(data.dislikes || 0);
       }
@@ -46,8 +52,13 @@ const ArtikelDetail = () => {
 
   if (!artikel) return <p className="text-center text-gray-500">Memuat artikel...</p>;
 
+  // Fungsi untuk cek apakah teks mengandung Markdown
+  const isMarkdown = (text) => {
+    return /(^|\s)([*_~`#-])/m.test(text); // Deteksi karakter Markdown
+  };
+
   return (
-    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-44 max-w-4xl bg-white shadow-lg rounded-lg">
+    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-44 max-w-4xl bg-white shadow-xl rounded-lg">
       <button onClick={() => navigate(-1)} className="mb-4 text-blue-600 hover:underline">
         ← Kembali
       </button>
@@ -74,7 +85,40 @@ const ArtikelDetail = () => {
         </button>
       </div>
 
-      <p className="text-base leading-relaxed text-gray-700">{artikel.isi}</p>
+      {/* Gambar di Atas (Center) */}
+      <div className="flex flex-col items-center mb-4">
+        {artikel.posisi_gambar1 === "atas" && artikel.gambar1 && (
+          <img src={artikel.gambar1} alt="Gambar 1" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+        {artikel.posisi_gambar2 === "atas" && artikel.gambar2 && (
+          <img src={artikel.gambar2} alt="Gambar 2" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+        {artikel.posisi_gambar3 === "atas" && artikel.gambar3 && (
+          <img src={artikel.gambar3} alt="Gambar 3" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+      </div>
+
+      {/* Isi Artikel (Cek Markdown atau Teks Biasa) */}
+      <div className="prose prose-lg text-gray-700 leading-relaxed mb-6">
+        {isMarkdown(artikel.isi) ? (
+          <ReactMarkdown>{artikel.isi}</ReactMarkdown>
+        ) : (
+          <p className="whitespace-pre-line">{artikel.isi}</p>
+        )}
+      </div>
+
+      {/* Gambar di Bawah (Center) */}
+      <div className="flex flex-col items-center space-y-4 px-4">
+        {artikel.posisi_gambar1 === "bawah" && artikel.gambar1 && (
+          <img src={artikel.gambar1} alt="Gambar 1" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+        {artikel.posisi_gambar2 === "bawah" && artikel.gambar2 && (
+          <img src={artikel.gambar2} alt="Gambar 2" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+        {artikel.posisi_gambar3 === "bawah" && artikel.gambar3 && (
+          <img src={artikel.gambar3} alt="Gambar 3" className="w-full max-w-lg max-h-72 object-cover rounded-lg" />
+        )}
+      </div>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const Carousel = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setIndex((prevIndex) => (prevIndex + 1) % slides.length);
-        }, 70000); // Slide berubah setiap 5 detik
+        }, 5000); // Slide berubah setiap 5 detik
         return () => clearInterval(interval);
     }, []);
 

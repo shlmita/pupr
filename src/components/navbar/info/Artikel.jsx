@@ -20,7 +20,7 @@ const Artikel = () => {
   }, []);
 
   return (
-    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-44 max-w-4xl bg-white shadow-lg rounded-lg shadow-[0_-11px_21px_rgba(0,0,0,0),0_11px_31px_rgba(0,0,0,0.3)]">
+    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-44 max-w-4xl bg-white shadow-xl rounded-lg shadow-[0_-10px_30px_rgba(0,0,0,0.2),0_10px_30px_rgba(0,0,0,0.3)]">
       <FadeInSection>
         <h1 className="p-5 text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium mb-2">
           Artikel
