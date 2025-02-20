@@ -26,7 +26,7 @@ const BukuTamu = () => {
   };
 
   return (
-    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-80 max-w-4xl bg-white shadow-lg rounded-lg shadow-[0_-10px_30px_rgba(0,0,0,0.2),0_10px_30px_rgba(0,0,0,0.2)]">
+    <div className="relative mt-32 mb-16 p-6 m-7 lg:mx-80 max-w-4xl bg-white shadow-lg rounded-lg shadow-[0_-10px_30px_rgba(0,0,0,0.3),0_10px_30px_rgba(0,0,0,0.3)]">
       <h2 className="text-xl font-bold text-gray-700 text-center mb-4">Buku Tamu</h2>
       {message && (
         <p className={`text-sm text-center mb-4 ${message.type === "error" ? "text-red-500" : "text-green-500"}`}>
