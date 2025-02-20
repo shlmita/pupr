@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   return (
-    <div className="w-full items-center bg-dots bg-repeat bg-[size:600px] flex justify-center min-h-screen bg-white">
+    <div className="px-10 w-full items-center bg-dots bg-repeat bg-[size:600px] flex justify-center min-h-screen bg-white">
       <form
         onSubmit={handleLogin}
         className="w-full max-w-sm p-6 bg-neutral-50  rounded-lg shadow-[0_-4px_20px_rgba(0,0,0,0.1),0_4px_20px_rgba(0,0,0,0.1)]"
