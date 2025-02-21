@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Menu, Home, Users, FileText, Settings, LogOut, ClipboardList, BookOpen, Newspaper, Video } from "lucide-react";
+import { Menu, Home, Users, FileText, Settings, LogOut, ClipboardList, BookOpen, Newspaper, Video, Briefcase, } from "lucide-react";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +13,7 @@ const Sidebar = () => {
     { name: "Publikasi", path: "/admin/publikasi", icon: <BookOpen size={20} /> },
     { name: "Artikel", path: "/admin/artikel", icon: <Newspaper size={20} /> },
     { name: "Video", path: "/admin/video", icon: <Video size={20} /> },
+    { name: "BPK", path: "/admin/BPK", icon: <Briefcase size={20} /> },
     { name: "Pengaturan", path: "/admin/settings", icon: <Settings size={20} /> },
   ];
 

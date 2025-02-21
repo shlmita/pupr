@@ -27,6 +27,7 @@ import VideoDetail from "./components/navbar/info/VideoDetail";
 import VideoUs from "./components/navbar/info/Video";
 import BukuTamu from "./pages/admin/BukuTamu";
 import BukuTamuUs from "./components/navbar/BukuTamu";
+import BpkForm from "./pages/admin/BpkForm";
 
 
 
@@ -72,6 +73,7 @@ function App() {
           <Route path="publikasi" element={<Publikasi />} />
           <Route path="artikel" element={<Artikel />} />
           <Route path="video" element={<Video />} />
+          <Route path="BPK" element={<BpkForm />} />
           <Route path="settings" element={<Settings />} />
         </Route>
       </Routes>
