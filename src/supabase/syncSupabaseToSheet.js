@@ -15,7 +15,9 @@ export async function syncData() {
         console.log(`✅ Data Supabase diambil: ${data.length} baris`);
 
         const doc = new GoogleSpreadsheet(process.env.SPREADSHEET_ID);
-        const credentials = JSON.parse(fs.readFileSync(process.env.GOOGLE_SERVICE_ACCOUNT_JSON, 'utf8'));
+
+        // 🔥 Decode Base64 ke JSON
+        const credentials = JSON.parse(Buffer.from(process.env.GOOGLE_CREDENTIALS_BASE64, 'base64').toString('utf8'));
 
         await doc.useServiceAccountAuth(credentials);
         await doc.loadInfo();
