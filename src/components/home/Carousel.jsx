@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 const slides = [
     { image: "/proyek-1.png", title: "Boyong Grobog", description: "Hari jadi Kabupaten Grobogan Ke-294" },
     { image: "/proyek-2.png", title: "Penghargaan dari Kantor Pelayanan Pajak Pratama Blora", description: "Deskripsi singkat slide kedua." },
@@ -9,6 +8,7 @@ const slides = [
 
 const Carousel = () => {
     const [index, setIndex] = useState(0);
+    const [imageLoaded, setImageLoaded] = useState(false); // Track loading status
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -16,6 +16,15 @@ const Carousel = () => {
         }, 5000); // Slide berubah setiap 5 detik
         return () => clearInterval(interval);
     }, []);
+
+    // Function to handle image load error
+    const handleImageError = () => {
+        setImageLoaded(false);
+    };
+
+    const handleImageLoad = () => {
+        setImageLoaded(true);
+    };
 
     return (
         <div className="relative w-full h-[400px] overflow-hidden">
@@ -25,11 +34,13 @@ const Carousel = () => {
                         key={slides[index].image}
                         src={slides[index].image}
                         alt="Slide"
-                        className="w-full h-full object-cover rounded-lg absolute top-0 left-0"
+                        className={`w-full h-full object-cover rounded-lg absolute top-0 left-0 ${!imageLoaded ? "opacity-0" : "opacity-100"}`} 
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.30 }}
+                        onLoad={handleImageLoad}
+                        onError={handleImageError} // Handle error case
                     />
                 </AnimatePresence>
             </AnimatePresence>
@@ -63,9 +74,7 @@ const Carousel = () => {
                 {slides.map((_, i) => (
                     <button
                         key={i}
-                        className={`w-3 h-3 rounded-full transition ${
-                            i === index ? "bg-sky-800" : "bg-sky-950"
-                        }`}
+                        className={`w-3 h-3 rounded-full transition ${i === index ? "bg-sky-800" : "bg-sky-950"}`}
                         onClick={() => setIndex(i)}
                     />
                 ))}
