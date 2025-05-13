@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const slides = [
-    { image: "/proyek-1.jpg", title: "Boyong Grobog", description: "Hari jadi Kabupaten Grobogan Ke-294" },
-    { image: "/proyek-2.jpg", title: "Penghargaan dari Kantor Pelayanan Pajak Pratama Blora", description: "Deskripsi singkat slide kedua." },
+    { image: "/proyek-1.png", title: "Boyong Grobog", description: "Hari jadi Kabupaten Grobogan Ke-294" },
+    { image: "/proyek-2.png", title: "Penghargaan dari Kantor Pelayanan Pajak Pratama Blora", description: "Deskripsi singkat slide kedua." },
 ];
 
 const Carousel = () => {
