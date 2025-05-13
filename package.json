@@ -4,14 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "lint": "eslint .",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -27,12 +23,10 @@
     "express": "^4.21.2",
     "firebase": "^11.3.0",
     "framer-motion": "^12.4.0",
-    "fs": "^0.0.1-security",
     "gh-pages": "^6.3.0",
     "google-spreadsheet": "^3.3.0",
     "lucide-react": "^0.474.0",
     "mysql": "^2.18.1",
-    "next": "^15.1.7",
     "pdfjs-dist": "^3.11.174",
     "react": "^18.3.1",
     "react-calendar": "^5.1.0",
@@ -59,6 +53,5 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "vite": "^6.0.5"
-  },
-  "homepage": "https://shlmita.github.io/pupr/"
+  }
 }
