@@ -5,14 +5,14 @@ const pdfList = [
       slug: "sop-pengendalian-banjir",
       title: "SOP PENGENDALIAN BANJIR PADA DPUPR KAB. GROBOGAN",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/StandartJuknis.png",
+      thumbnail: "/StandartJuknis.png",
       file: "/Panduan-Teknis Jalan-Desa.pdf"
     },
     {
       slug: "panduan-teknis-jalan-desa",
       title: "Panduan Teknis Jalan Desa",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/StandartJuknis.png",
+      thumbnail: "/StandartJuknis.png",
       file: "/SOP_BANJIR.pdf"
     }
   ];

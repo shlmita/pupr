@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const slides = [
-    { image: "https://pupr-eta.vercel.app/proyek-1.jpg", title: "Boyong Grobog", description: "Hari jadi Kabupaten Grobogan Ke-294" },
-    { image: "https://pupr-eta.vercel.app/proyek-2.jpeg", title: "Penghargaan dari Kantor Pelayanan Pajak Pratama Blora", description: "Deskripsi singkat slide kedua." },
+    { image: "/public/proyek-1.jpeg", title: "Boyong Grobog", description: "Hari jadi Kabupaten Grobogan Ke-294" },
+    { image: "/public/proyek-2.jpeg", title: "Penghargaan dari Kantor Pelayanan Pajak Pratama Blora", description: "Deskripsi singkat slide kedua." },
 ];
 
 const Carousel = () => {
