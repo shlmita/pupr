@@ -31,7 +31,7 @@ function DaftarInfoPublik() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/ringkasanip/DIP_DPUPR_Kab_Grobogan.pdf"
+              src="/public/DIP_DPUPR_Kab_Grobogan.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />

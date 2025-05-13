@@ -5,43 +5,43 @@ const pdfList = [
     slug: "Pemeriksaan-Akurasi-Informasi-Publik",
     title: "Tata cara pemeriksaan akurasi informasi",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-6.png",
-    file: "/public/sop/Pemeriksaan_Akurasi_Informasi_Publik.pdf"
+    thumbnail: "/public/sop-6.png",
+    file: "/publi/sop/Pemeriksaan_Akurasi_Informasi_Publik.pdf"
   },
   {
     slug: "SOP-Uji-Konsekuensi-Informasi-Publik",
     title: "SOP Uji Konsekuensi Informasi Publik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-5.png",
-    file: "/public/sop/SOP_Uji_Konsekuensi_Informasi_Publik.pdf"
+    thumbnail: "/public/sop-5.png",
+    file: "/public/SOP_Uji_Konsekuensi_Informasi_Publik.pdf"
   },
   {
     slug: "SOP-Penanganan-Keberatan-Informasi-Publik",
     title: "SOP Penanganan Keberatan Informasi Publik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-4.png",
-    file: "/public/sop/SOP_Penanganan_Keberatan_Informasi_Publik.pdf"
+    thumbnail: "/public/sop-4.png",
+    file: "/public/SOP_Penanganan_Keberatan_Informasi_Publik.pdf"
   },
   {
     slug: "SOP-Pelayanan-Permohonan-Informasi-Publik",
     title: "SOP Pelayanan Permohonan Informasi Publik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-3.png",
-    file: "/public/sop/SOP_Pelayanan_Permohonan_Informasi_Publik.pdf"
+    thumbnail: "/public/sop-3.png",
+    file: "/public/SOP_Pelayanan_Permohonan_Informasi_Publik.pdf"
   },
   {
     slug: "SOP-Keberatan-Informasi-Publik",
     title: "SOP Keberatan Informasi Publik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-2.png",
-    file: "/public/sop/SOP_Fasilitasi_Keberatan_Informasi_Publik.pdf"
+    thumbnail: "/public/sop-2.png",
+    file: "/public/SOP_Fasilitasi_Keberatan_Informasi_Publik.pdf"
   },
   {
     slug: "SOP-Penyusunan-DIP",
     title: "SOP Penyusunan DIP",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/sop-1.png",
-    file: "/public/sop/SOP_DIP.pdf"
+    thumbnail: "/public/sop-1.png",
+    file: "/public/SOP_DIP.pdf"
   },
 ];
 

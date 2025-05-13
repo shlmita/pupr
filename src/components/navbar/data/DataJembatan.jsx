@@ -5,15 +5,15 @@ const pdfList = [
       slug: "Penetapan-Jembatan-Pada-Ruas-Jalan-2018",
       title: "PENETAPAN JEMBATAN PADA RUAS JALAN 2018",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/jembatan-1.png",
-      file: "/public/datajembatan/Lampiran_Jembatan_Final2.pdf"
+      thumbnail: "/jembatan-1.png",
+      file: "/public/Lampiran_Jembatan_Final2.pdf"
     },
     {
       slug: "Data-Jembatan-Di-Ruas-Jalan-Kabupaten-Grobogan",
       title: "Data Jembatan Di Ruas Jalan",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/jembatan-2.png",
-      file: "/public/datajembatan/Data_Jembatan_Di_Ruas_Jalan_Kabupaten_Grobogan.pdf"
+      thumbnail: "/jembatan-2.png",
+      file: "/public/Data_Jembatan_Di_Ruas_Jalan_Kabupaten_Grobogan.pdf"
     },
 ];
 

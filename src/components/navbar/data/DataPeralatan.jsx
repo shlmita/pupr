@@ -22,7 +22,7 @@ function DataPeralatan() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/databarang/rptdaftarbarang_11111.pdf"
+              src="/public/rptdaftarbarang_11111.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />

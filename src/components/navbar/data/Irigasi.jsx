@@ -5,15 +5,15 @@ const pdfList = [
       slug: "Data-Mata-Air-Kabupaten-Grobogan",
       title: "DATA MATA AIR KABUPATEN GROBOGAN",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/irigasi-1.png",
-      file: "/public/irigasi/data_mata_air_kab_grob.pdf"
+      thumbnail: "/irigasi-1.png",
+      file: "/public/data_mata_air_kab_grob.pdf"
     },
     {
       slug: "Penetapan-Status-Daerah-Irigasi",
       title: "PENETAPAN STATUS DAERAH IRIGASI",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/irigasi-2.png",
-      file: "/public/irigasi/penetapan_status_daerah_irigasi_tanggung_2016.pdf"
+      thumbnail: "/irigasi-2.png",
+      file: "/public/penetapan_status_daerah_irigasi_tanggung_2016.pdf"
     }
 ];
   

@@ -6,43 +6,43 @@ const pdfList = [
       slug: "PK-Kadin-2022",
       title: "PK Kadin 2022",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-1.png",
-      file: "/public/sakip/PK_Kadin.pdf"
+      thumbnail: "/public/sakip-1.png",
+      file: "/public/PK_Kadin.pdf"
     },
     {
       slug: "SK-IKU",
       title: "SK-IKU",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-2.png",
-      file: "/public/sakip/SK_IKU.pdf"
+      thumbnail: "/public/sakip-2.png",
+      file: "/public/SK_IKU.pdf"
     },
     {
       slug: "Renja-2022",
       title: "Renja 2022",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-3.png",
-      file: "/public/sakip/RENJA_2022.pdf"
+      thumbnail: "/public/sakip-3.png",
+      file: "/public/RENJA_2022.pdf"
     },
     {
       slug: "Rencana-Aksi-2022",
       title: "Rencana Aksi 2022",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-4.png",
-      file: "/public/sakip/Renc_Aksi_2022.pdf"
+      thumbnail: "/public/sakip-4.png",
+      file: "/public/Renc_Aksi_2022.pdf"
     },
     {
       slug: "LKJiP-2021",
       title: "LKJiP 2021",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-5.png",
-      file: "/public/sakip/pdf_lkjip_2021.pdf"
+      thumbnail: "/public/sakip-5.png",
+      file: "/public/pdf_lkjip_2021.pdf"
     },
     {
       slug: "CASCADING-OPD",
       title: "CASCADING OPD",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/sakip-6.png",
-      file: "/public/sakip/cascading_OPD.pdf"
+      thumbnail: "/public/sakip-6.png",
+      file: "/public/cascading_OPD.pdf"
     },
 ];
 

@@ -6,50 +6,50 @@ const pdfList = [
     slug: "Peta-Jalur-Alternatif-di-Grobogan",
     title: "Peta Jalur Alternatif di Grobogan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-6.png",
-    file: "/public/peta/peta_jalur_alternatif.pdf"
+    thumbnail: "/public/peta-6.png",
+    file: "/public/peta_jalur_alternatif.pdf"
   },
   {
     slug: "Jalur-Alternatif-Penawangan-Truko-Jeketro",
     title: "Jalur Alternatif Penawangan-Truko-Jeketro",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-7.png",
-    file: "/public/peta/penawangan_truko_jeketro.pdf"
+    thumbnail: "/public/peta-7.png",
+    file: "/public/penawangan_truko_jeketro.pdf"
   },
   {
     slug: "Jalur-Alternatif-Wirosari-Tegalrejo-Batas-Blora",
     title: "Jalur Alternatif Wirosari-Tegalrejo-Batas Blora",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-8.png",
-    file: "/public/peta/wirosari_tegalrejo_bts blora.pdf"
+    thumbnail: "/public/peta-8.png",
+    file: "/public/wirosari_tegalrejo_bts blora.pdf"
   },
   {
     slug: "Jalur-Alternatif-Jalan-Lingkar-Utara",
     title: "Jalur Alternatif Jalan Lingkar Utara",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-9.png",
-    file: "/public/peta/jalan_lingkar utara.pdf"
+    thumbnail: "/public/peta-9.png",
+    file: "/public/jalan_lingkar utara.pdf"
   },
   {
     slug: "Jalur-Alternatif-Grobogan-Putatsari-Rejosari",
     title: "Jalur Alternatif Grobogan-Putatsari-Rejosari",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-10.png",
-    file: "/public/peta/grob_putatsari_rejosari.pdf"
+    thumbnail: "/public/peta-10.png",
+    file: "/public/grob_putatsari_rejosari.pdf"
   },
   {
     slug: "Jalur-Alternatif-Danyang-Kalongan-Kandangan-Gatak-Pulokulon-Tuko-Banjarsari",
     title: "Jalur Alternatif Danyang-Kalongan-Kandangan-Gatak-Pulokulon-Tuko-Banjarsari",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-11.png",
-    file: "/public/peta/danyang_banjarsari_ngaringan.pdf"
+    thumbnail: "/public/peta-11.png",
+    file: "/public/danyang_banjarsari_ngaringan.pdf"
   },
   {
     slug: "Jalur-Alternatif-Danyang-Pengkol-Penawangan-Godong-Klambu",
     title: "Jalur Alternatif Danyang-Pengkol-Penawangan-Godong-Klambu",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-12.png",
-    file: "/public/peta/danyang_pengkol_penawangan_godong_klambu.pdf"
+    thumbnail: "/public/peta-12.png",
+    file: "/public/danyang_pengkol_penawangan_godong_klambu.pdf"
   },
 ];
 

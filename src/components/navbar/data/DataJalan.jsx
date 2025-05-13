@@ -5,45 +5,44 @@ const pdfList = [
     slug: "Data-Kondisi-Jalan-2020",
     title: "DATA KONDISI JALAN 2020",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-1.png",
-    file: "/public/datajalan/kondisi_jalan_2020.pdf"
+    thumbnail: "/public/jalan-1.png",
+    file: "/public/kondisi_jalan_2020.pdf"
   },
   {
     slug: "Panjang-Jalan-Kabupaten-Grobogan-Kondisi-Tahun-2018",
     title: "DATA KONDISI JALAN 2018",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-2.png",
-    file: "/public/datajalan/KONDISI_JALAN_2018.pdf"
+    thumbnail: "/public/jalan-2.png",
+    file: "/public/KONDISI_JALAN_2018.pdf"
   },
   {
     slug: "Penetapan-Ruas-Jalan-Tahun-2018",
     title: "PENETEPAN RUAS JALAN TAHUN 2018",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-3.png",
-    file: "/public/datajalan/Lampiran_Jalan_Final_fix.pdf"
+    thumbnail: "/public/jalan-3.png",
+    file: "/public/Lampiran_Jalan_Final_fix.pdf"
   },
   {
     slug: "Panjang-Jalan-Kabupaten-Grobogan-Kondisi-Tahun-2013",
     title: "DATA KONDISI JALAN 2013",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-4.png",
-    file: "/public/datajalan/Panjang_Jalan_Kabupaten_Grobogan_Menurut_Kondisi_Jalan_Tahun_2013.pdf"
+    thumbnail: "/public/jalan-4.png",
+    file: "/public/Panjang_Jalan_Kabupaten_Grobogan_Menurut_Kondisi_Jalan_Tahun_2013.pdf"
   },
   {
     slug: "Penentuan-Ruas-Jalan-Kabupaten-di-Kabupaten-Grobogan",
     title: "Penentuan Ruas Jalan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-5.png",
-    file: "/public/datajalan/Penentuan_Ruas_Jalan_Kabupaten_di_Kabupaten_Grobogan.pdf"
+    thumbnail: "/public/jalan-5.png",
+    file: "/public/Penentuan_Ruas_Jalan_Kabupaten_di_Kabupaten_Grobogan.pdf"
   },
   {
     slug: "Panjang-Jalan-Kabupaten-Grobogan-Kondisi-Tahun-2014",
     title: "DATA KONDISI JALAN 2014",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/jalan-6.png",
-    file: "/public/datajalan/Panjang_Jalan_Kabupaten_Grobogan_Menurut_Kondisi_Jalan_Tahun_2014.pdf"
+    thumbnail: "/public/jalan-6.png",
+    file: "/public/Panjang_Jalan_Kabupaten_Grobogan_Menurut_Kondisi_Jalan_Tahun_2014.pdf"
   },
-
 ];
 
 const DataJalan = () => {

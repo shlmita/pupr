@@ -5,50 +5,50 @@ const pdfList = [
     slug: "Daftar-Embung-DPUPR",
     title: "Daftar Embung DPUPR",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-1.png",
-    file: "/public/sungaiembung/embungdpupr.pdf"
+    thumbnail: "/public/embung-1.png",
+    file: "/public/embungdpupr.pdf"
   },
   {
     slug: "Inventarisasi-Bendung",
     title: "INVENTARISASI BENDUNG",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-2.png",
-    file: "/public/sungaiembung/inventarisasi_bendung.pdf"
+    thumbnail: "/public/embung-2.png",
+    file: "/public/inventarisasi_bendung.pdf"
   },
   {
     slug: "Inventarisasi-Embung",
     title: "INVENTARISASI EMBUNG",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-3.png",
-    file: "/public/sungaiembung/inventarisasi_embung_2020.pdf"
+    thumbnail: "/public/embung-3.png",
+    file: "/public/inventarisasi_embung_2020.pdf"
   },
   {
     slug: "Data-Dasar-Prasarana-Irigasi",
     title: "DATA DASAR PRASARANA IRIGASI KAB. GROBOGAN (DD3)",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-4.png",
-    file: "/public/sungaiembung/dd3.pdf"
+    thumbnail: "/public/embung-4.png",
+    file: "/public/dd3.pdf"
   },
   {
     slug: "Daftar-Inventarisasi-Embung",
     title: "DAFTAR INVENTARISASI EMBUNG",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-5.png",
-    file: "/public/sungaiembung/inventarisasi_embung_2020.pdf"
+    thumbnail: "/public/embung-5.png",
+    file: "/public/inventarisasi_embung_2020.pdf"
   },
   {
     slug: "Daftar-Inventarisasi-Bendung-Tahun-2018",
     title: "DAFTAR INVENTARISASI BENDUNG TAHUN 2018",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-6.png",
-    file: "/public/sungaiembung/daftar_inventaris_bendung_2018.pdf"
+    thumbnail: "/public/embung-6.png",
+    file: "/public/daftar_inventaris_bendung_2018.pdf"
   },
   {
     slug: "Kriteria-dan-Penetapan-Wilayah-Sungai",
     title: "KRITERIA DAN PENETAPAN WILAYAH SUNGAI",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/embung-7.png",
-    file: "/public/sungaiembung/KRITERIA_DAN_PENETAPAN_WILAYAH_SUNGAI.pdf"
+    thumbnail: "/public/embung-7.png",
+    file: "/public/KRITERIA_DAN_PENETAPAN_WILAYAH_SUNGAI.pdf"
   },
 ];
 

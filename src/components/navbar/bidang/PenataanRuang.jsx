@@ -22,7 +22,7 @@ function PenataanRuang() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/bciptakarya/Rekap_Permohonan_Tinjauan_Tata_Ruang.pdf"
+              src="/public/Rekap_Permohonan_Tinjauan_Tata_Ruang.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />

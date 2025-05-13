@@ -22,7 +22,7 @@ function KeputusanKepDin() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/regulasi/SK_Penunjukan_Pejabat_PPID.pdf"
+              src="/public/SK_Penunjukan_Pejabat_PPID.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />

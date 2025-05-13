@@ -5,36 +5,36 @@ const pdfList = [
     slug: "Peta-Jalan-2022",
     title: "PETA JALAN 2022",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-1.png",
-    file: "/public/peta/PETA JALAN 2022 - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
+    thumbnail: "/public/peta-1.png",
+    file: "/public/PETA JALAN 2022 - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
   },
   {
     slug: "Peta-Kondisi-Jalan-2016",
     title: "Peta Kondisi Jalan 2016",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-2.png",
-    file: "/public/peta/Peta_Kondisi_Jalan_2016.pdf"
+    thumbnail: "/public/peta-2.png",
+    file: "/public/Peta_Kondisi_Jalan_2016.pdf"
   },
   {
     slug: "Peta-Kondisi-Jalan-2017",
     title: "Peta Kondisi Jalan 2017",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-3.png",
-    file: "/public/peta/peta-kondisi-jalan-2017.pdf"
+    thumbnail: "/public/peta-3.png",
+    file: "/public/peta-kondisi-jalan-2017.pdf"
   },
   {
     slug: "Peta-Jalan-Kabupaten-Grobogan",
     title: "Peta Jalan Kabupaten Grobogan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-4.png",
-    file: "/public/peta/Peta Jalan Kabupaten Grobogan.pdf"
+    thumbnail: "/public/peta-4.png",
+    file: "/public/Peta Jalan Kabupaten Grobogan.pdf"
   },
   {
     slug: "Peta-Wilayah-Kabupaten-Grobogan",
     title: "Peta Wilayah Kabupaten Grobogan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/peta-5.png",
-    file: "/public/peta/peta wilayah administrasi grobogan.pdf"
+    thumbnail: "/public/peta-5.png",
+    file: "/public/peta wilayah administrasi grobogan.pdf"
   },
 ];
 

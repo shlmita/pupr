@@ -6,64 +6,64 @@ const pdfList = [
       slug: "RUP-2022",
       title: "Rencana Umum Pengadaan 2022",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2022.png",
-      file: "/public/rup/rup_2022.pdf"
+      thumbnail: "/public/rup_2022.png",
+      file: "/public/rup_2022.pdf"
     },
     {
       slug: "RUP-2021",
       title: "Rencana Umum Pengadaan 2021",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2021.png",
-      file: "/public/rup/rup_2021.pdf"
+      thumbnail: "/public/rup_2021.png",
+      file: "/public/rup_2021.pdf"
     },
     {
       slug: "RUP-2020",
       title: "Rencana Umum Pengadaan 2020",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2020.png",
-      file: "/public/rup/rup_2020.pdf"
+      thumbnail: "/public/rup_2020.png",
+      file: "/public/rup_2020.pdf"
     },
     {
       slug: "RUP-2019",
       title: "Rencana Umum Pengadaan 2019",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2019.png",
-      file: "/public/rup/rup_2019.pdf"
+      thumbnail: "/public/rup_2019.png",
+      file: "/public/rup_2019.pdf"
     },
     {
       slug: "RUP-2018",
       title: "Rencana Umum Pengadaan 2018",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2018.png",
-      file: "/public/rup/rup_2018.pdf"
+      thumbnail: "/public/rup_2018.png",
+      file: "/public/rup_2018.pdf"
     },
     {
       slug: "RUP-2017",
       title: "Rencana Umum Pengadaan 2017",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2017.png",
-      file: "/public/rup/rup_2017.pdf"
+      thumbnail: "/public/rup_2017.png",
+      file: "/public/rup_2017.pdf"
     },
     {
       slug: "RUP-2016",
       title: "Rencana Umum Pengadaan 2016",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2016.png",
-      file: "/public/rup/rup_2016.pdf"
+      thumbnail: "/public/rup_2016.png",
+      file: "/public/rup_2016.pdf"
     },
     {
       slug: "RUP-2015",
       title: "Rencana Umum Pengadaan 2015",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2015.png",
-      file: "/public/rup/rup_2015.pdf"
+      thumbnail: "/public/rup_2015.png",
+      file: "/public/rup_2015.pdf"
     },
     {
       slug: "RUP-2014",
       title: "Rencana Umum Pengadaan 2014",
       date: "2/20/2025",
-      thumbnail: "/public/pdf-thumbnails/rup_2014.png",
-      file: "/public/rup/rup_2014.pdf"
+      thumbnail: "/public/rup_2014.png",
+      file: "/public/rup_2014.pdf"
     },
 ];
 

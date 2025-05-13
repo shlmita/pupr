@@ -22,7 +22,7 @@ function KeputusanBup() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/regulasi/PENETAPAN_RUAS_JALAN_KABUPATEN.pdf"
+              src="/public/PENETAPAN_RUAS_JALAN_KABUPATEN.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />

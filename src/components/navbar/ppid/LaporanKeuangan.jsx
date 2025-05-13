@@ -5,15 +5,15 @@ const pdfList = [
       slug: "bupati-grobogan-minta-kepala-skpd-agar-segera-setor-data-penyusunan-lkpj-dan-lppd",
       title: "Penyusunan LKPJ dan LPPD",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/laporan-keuangan.png",
-      file: "/public/ringkasanip/Bupati Grobogan Minta Kepala SKPD Agar Segera Setor Data Penyusunan LKPJ dan LPPD.pdf"
+      thumbnail: "/laporan-keuangan.png",
+      file: "/public/Bupati Grobogan Minta Kepala SKPD Agar Segera Setor Data Penyusunan LKPJ dan LPPD.pdf"
     },
     {
       slug: "kepala-skpd-diminta-segera-menyusun-laporan-keuangan-ta-2017",
       title: "Laporan Keuangan TA 2017",
       date: "2/20/2025",
-      thumbnail: "/pdf-thumbnails/laporan-keuangan-2.png",
-      file: "/public/ringkasanip/Kepala SKPD Diminta Segera Menyusun Laporan Keuangan TA 2017.pdf"
+      thumbnail: "/laporan-keuangan-2.png",
+      file: "/public/Kepala SKPD Diminta Segera Menyusun Laporan Keuangan TA 2017.pdf"
     },
 ];
   

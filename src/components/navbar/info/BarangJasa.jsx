@@ -5,22 +5,22 @@ const pdfList = [
     slug: "Arsip-SPK-SW-2021",
     title: "Arsip SPK SW 2021",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/barang-1.png",
-    file: "/public/barang/SPK_SW_2021.pdf"
+    thumbnail: "/public/barang-1.png",
+    file: "/public/SPK_SW_2021.pdf"
   },
   {
     slug: "Daftar-Lelang",
     title: "Daftar Pekerjaan yang dilelangkan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/barang-2.png",
-    file: "/public/barang/daftar_lelang.pdf"
+    thumbnail: "/public/barang-2.png",
+    file: "/public/daftar_lelang.pdf"
   },
   {
     slug: "Pembangunan Talud",
     title: "Pembangunan Talud Ruas Plosorejo - Tanggungharjo",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/barang-3.png",
-    file: "/public/barang/arsip_penyelesaian_pekerjaan_plosorejo.pdf"
+    thumbnail: "/public/barang-3.png",
+    file: "/public/arsip_penyelesaian_pekerjaan_plosorejo.pdf"
   },
 ];
 

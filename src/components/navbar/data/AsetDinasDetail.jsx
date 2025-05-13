@@ -6,43 +6,43 @@ const pdfList = [
     slug: "Daftar-Aset-Kondisi-Tidak-Ditemukan",
     title: "Daftar Aset kondisi Tidak Ditemukan",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-1.png",
-    file: "/public/asetdinas/Daftar_Aset_kondisi_Tidak_Ditemukan.pdf"
+    thumbnail: "/public/aset-1.png",
+    file: "/public/Daftar_Aset_kondisi_Tidak_Ditemukan.pdf"
   },
   {
     slug: "Daftar-Aset Kondisi-Kurang-Baik",
     title: "Daftar Aset Kondisi Kurang Baik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-2.png",
-    file: "/public/asetdinas/Daftar_Aset_kondisi_Kurang_Baik.pdf"
+    thumbnail: "/public/aset-2.png",
+    file: "/public/Daftar_Aset_kondisi_Kurang_Baik.pdf"
   },
   {
     slug: "Daftar-Aset-Kondisi-Rusak-Berat",
     title: "Daftar Aset kondisi Rusak Berat",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-3.png",
-    file: "/public/asetdinas/Daftar_Aset_kondisi_Rusak_Berat.pdf"
+    thumbnail: "/public/aset-3.png",
+    file: "/public/Daftar_Aset_kondisi_Rusak_Berat.pdf"
   },
   {
     slug: "Daftar-Aset-Kondisi-Baik",
     title: "Daftar Aset Kondisi Baik",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-4.png",
-    file: "/public/asetdinas/Daftar_Aset_Kondisi_Baik.pdf"
+    thumbnail: "/public/aset-4.png",
+    file: "/public/Daftar_Aset_Kondisi_Baik.pdf"
   },
   {
     slug: "33-PNS-yang-Ditugaskan-jadi-Sekdes-Ditarik-Lagi-ke-SKPD",
     title: "33 PNS Ditugaskan jadi Sekdes Ditarik Lagi ke SKPD",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-5.png",
-    file: "/public/asetdinas/33 PNS yang Ditugaskan jadi Sekdes Ditarik Lagi ke SKPD - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
+    thumbnail: "/public/aset-5.png",
+    file: "/public/33 PNS yang Ditugaskan jadi Sekdes Ditarik Lagi ke SKPD - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
   },
   {
     slug: "Aset-Tanah-Dinas-Bina-Marga-Kabupaten-Grobogan",
     title: "Aset Tanah Dinas Bina Marga",
     date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/aset-6.png",
-    file: "/public/asetdinas/Aset_Tanah_Dinas_Bina_Marga_Kabupaten_Grobogan.pdf"
+    thumbnail: "/public/aset-6.png",
+    file: "/public/Aset_Tanah_Dinas_Bina_Marga_Kabupaten_Grobogan.pdf"
   },
 ];
 

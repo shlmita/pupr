@@ -1,69 +1,69 @@
 import { useNavigate } from "react-router-dom";
 
 const pdfList = [
-  {
-    slug: "RFK-Agustus-2022",
-    title: "Realisasi Fisik Kegiatan Agustus 2022",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-1.png",
-    file: "/public/rfk/agustus2022.pdf"
-  },
-  {
-    slug: "RFK-Desember-2021",
-    title: "Realisasi Fisik Kegiatan Desember 2021",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-2.png",
-    file: "/public/rfk/des2021.pdf"
-  },
-  {
-    slug: "RFK-Januari-2021",
-    title: "Realisasi Fisik Kegiatan Januari 2021",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-5.png",
-    file: "/public/rfk/RFK_Januari_2021.pdf"
-  },
-  {
-    slug: "RFK-Agustus-2020",
-    title: "Realisasi Fisik Kegiatan Agustus 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-3.png",
-    file: "/public/rfk/rfk_agustus_2020.pdf"
-  },
-  {
-    slug: "RFK-Desember-2020",
-    title: "Realisasi Fisik Kegiatan Desember 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-4.png",
-    file: "/public/rfk/rfk_des_2020.pdf"
-  },
-  {
-    slug: "RFK-Juli-2020",
-    title: "Realisasi Fisik Kegiatan Juli 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-6.png",
-    file: "/public/rfk/rfk_juli_2020.pdf"
-  },
-  {
-    slug: "RFK-November-2020",
-    title: "Realisasi Fisik Kegiatan November 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-7.png",
-    file: "/public/rfk/rfk_nov_2020.pdf"
-  },
-  {
-    slug: "RFK-Oktober-2020",
-    title: "Realisasi Fisik Kegiatan Oktober 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-8.png",
-    file: "/public/rfk/rfk_okt_2020.pdf"
-  },
-  {
-    slug: "RFK-September-2020",
-    title: "Realisasi Fisik Kegiatan September 2020",
-    date: "2/20/2025",
-    thumbnail: "/public/pdf-thumbnails/RFK-9.png",
-    file: "/public/rfk/rfk_sep_2020.pdf"
-  },
+    {
+      slug: "RFK-Agustus-2022",
+      title: "Realisasi Fisik Kegiatan Agustus 2022",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-1.png",
+      file: "/public/agustus2022.pdf"
+    },
+    {
+      slug: "RFK-Desember-2021",
+      title: "Realisasi Fisik Kegiatan Desember 2021",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-2.png",
+      file: "/public/des2021.pdf"
+    },
+    {
+      slug: "RFK-Januari-2021",
+      title: "Realisasi Fisik Kegiatan Januari 2021",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-5.png",
+      file: "/public/RFK_Januari_2021.pdf"
+    },
+    {
+      slug: "RFK-Agustus-2020",
+      title: "Realisasi Fisik Kegiatan Agustus 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-3.png",
+      file: "/public/rfk_agustus_2020.pdf"
+    },
+    {
+      slug: "RFK-Desember-2020",
+      title: "Realisasi Fisik Kegiatan Desember 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-4.png",
+      file: "/public/rfk_des_2020.pdf"
+    },
+    {
+      slug: "RFK-Juli-2020",
+      title: "Realisasi Fisik Kegiatan Juli 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-6.png",
+      file: "/public/rfk_juli_2020.pdf"
+    },
+    {
+      slug: "RFK-November-2020",
+      title: "Realisasi Fisik Kegiatan November 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-7.png",
+      file: "/public/rfk_nov_2020.pdf"
+    },
+    {
+      slug: "RFK-Oktober-2020",
+      title: "Realisasi Fisik Kegiatan Oktober 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-8.png",
+      file: "/public/rfk_okt_2020.pdf"
+    },
+    {
+      slug: "RFK-September-2020",
+      title: "Realisasi Fisik Kegiatan September 2020",
+      date: "2/20/2025",
+      thumbnail: "/public/RFK-9.png",
+      file: "/public/rfk_sep_2020.pdf"
+    },
 ];
 
 const RFK = () => {

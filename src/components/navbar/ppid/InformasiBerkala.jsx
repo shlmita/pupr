@@ -31,7 +31,7 @@ function InformasiBerkala() {
             </div>
             {/* Konten PDF */}
             <embed
-              src="/public/daftarip/Informasi Berkala - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
+              src="/public/Informasi Berkala - Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Grobogan.pdf"
               type="application/pdf"
               className="w-full h-[70vh] rounded-lg border-2 border-gray-300"
           />
