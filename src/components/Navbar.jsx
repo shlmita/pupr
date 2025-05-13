@@ -63,7 +63,7 @@ const Navbar = () => {
                         {/* Home */}
                         <li className='flex items-center gap-1'>
                             <i className="ri-home-2-line text-3xl md:hidden block"></i>
-                            <a href="/home" className="font-medium flex item-center">HOME</a>
+                            <a href="/" className="font-medium flex item-center">HOME</a>
                         </li>
 
                         {/* Dropdown Profil */}
@@ -97,25 +97,15 @@ const Navbar = () => {
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/infoTerkini"}>Info Terkini</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/publikasi"}>Publikasi</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/artikel"}>Artikel</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Standart dan Juknis</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">RUP</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">RFK</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/standartJuknis"}>Standart dan Juknis</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/RUP"}>RUP</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/RFK"}>RFK</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/video"}>Video</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Barang dan Jasa</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">SOP</li>
-                                    {/* SAKIP dengan Submenu */}
-                                    <li className="relative group">
-                                        <button className="w-full text-left p-2 hover:bg-gray-200 flex justify-between">
-                                            SAKIP <i className="ri-arrow-right-s-line"></i>
-                                        </button>
-
-                                        {/* Submenu untuk SAKIP */}
-                                        <ul className="absolute left-full top-0 mt-0 bg-white text-black w-48 shadow-lg rounded-md hidden group-hover:block">
-                                            <li className="p-2 hover:bg-gray-200 cursor-pointer">SAKIP 2022</li>
-                                        </ul>
-                                    </li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Informasi Tata Ruang</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Pranala Luar</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/barang-jasa"}>Barang dan Jasa</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/SOP"}>SOP</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/sakip"}>SAKIP</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "https://sipr.grobogan.go.id/cgi-sys/defaultwebpage.cgi"}>Informasi Tata Ruang</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/info/peranalan-luar"}>Pranalan Luar</li>
                                 </ul>
                             )}
                         </li>
@@ -129,8 +119,8 @@ const Navbar = () => {
 
                             {openDropdown === 3 && (
                                 <ul className="absolute left-0 mt-2 bg-white text-black w-48 shadow-lg rounded-md z-50">
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Keputusan Bupati</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Keputusan Kepala Dinas</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/regulasi/keputusan-bupati"}>Keputusan Bupati</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/regulasi/keputusan-kepala-dinas"}>Keputusan Kepala Dinas</li>
                                 </ul>
                             )}
                         </li>
@@ -144,10 +134,10 @@ const Navbar = () => {
 
                             {openDropdown === 4 && (
                                 <ul className="absolute left-0 mt-2 bg-white text-black w-48 shadow-lg rounded-md z-50 sm:max-h-[250px] sm:overflow-y-auto md:max-h-[250px] md:overflow-y-auto lg:max-h-none lg:overflow-visible">
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Jalan</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Jembatan</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Peralatan</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Aset Dinas</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/data-jalan"}>Data Jalan</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/data-jembatan"}>Data Jembatan</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/data-peralatan"}>Data Peralatan</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/aset-dinas"}>Aset Dinas</li>
                                     
                                     {/* Peta dengan Submenu */}
                                     <li className="relative group">
@@ -158,15 +148,15 @@ const Navbar = () => {
 
                                         {/* Submenu untuk Peta */}
                                         <ul className="absolute left-full top-0 ml-2 bg-white text-black w-48 shadow-lg rounded-md hidden group-hover:block">
-                                            <li className="p-2 hover:bg-gray-200 cursor-pointer">Peta Jalan</li>
-                                            <li className="p-2 hover:bg-gray-200 cursor-pointer">Peta Jalur Alternatif</li>
+                                            <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/peta-jalan"}>Peta Jalan</li>
+                                            <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/peta-jalur"}>Peta Jalur Alternatif</li>
                                         </ul>
                                     </li>
 
 
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Sungai Dan Embung</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Irigasi Dan Air Baku</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Data Penataan Ruang</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/sungai-dan-embung"}>Data Sungai Dan Embung</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/data/irigasi-dan-air-baku"}>Data Irigasi Dan Air Baku</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" >Data Penataan Ruang</li>
                                 </ul>
                             )}
                         </li>
@@ -181,8 +171,8 @@ const Navbar = () => {
                             {openDropdown === 5 && (
                                 <ul className="absolute left-0 mt-2 bg-white text-black w-48 shadow-lg rounded-md z-50 sm:max-h-[250px] sm:overflow-y-auto md:max-h-[250px] md:overflow-y-auto lg:max-h-none lg:overflow-visible">
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer">Bina Marga</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Cipta Karya</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Penataan Ruang</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/bidang/Cipta-Karya"}>Cipta Karya</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/bidang/Penataan-Ruang"}>Penataan Ruang</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer">Perencanaan Dan Bina Konstruksi</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer">Persungaian Dan Embung</li>
                                     <li className="p-2 hover:bg-gray-200 cursor-pointer">Irigasi Dan Air Baku</li>
@@ -208,9 +198,9 @@ const Navbar = () => {
 
                                     {/* Submenu untuk Daftar IP */}
                                     <ul className="absolute left-full top-0 ml-2 bg-white text-black w-48 shadow-lg rounded-md hidden group-hover:block">
-                                        <li className="p-2 hover:bg-gray-200 cursor-pointer">Informasi Berkala</li>
-                                        <li className="p-2 hover:bg-gray-200 cursor-pointer">Informasi Serta Merta</li>
-                                        <li className="p-2 hover:bg-gray-200 cursor-pointer">Informasi Setiap Saat</li>
+                                        <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/informasi-berkala"}>Informasi Berkala</li>
+                                        <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/informasi-serta-merta"}>Informasi Serta Merta</li>
+                                        <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/informasi-setiap-saat"}>Informasi Setiap Saat</li>
                                     </ul>
                                 </li>
 
@@ -224,15 +214,15 @@ const Navbar = () => {
                                     {/* Submenu untuk Ringkasan IP */}
                                     <ul className="absolute left-full top-0 ml-2 bg-white text-black w-48 shadow-lg rounded-md hidden group-hover:block">
                                         <li className="p-2 hover:bg-gray-200 cursor-pointer">Laporan Informasi Publik</li>
-                                        <li className="p-2 hover:bg-gray-200 cursor-pointer">Laporan Keuangan</li>
+                                        <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/laporan-keuangan"}>Laporan Keuangan</li>
 
                                     </ul>
                                 </li>
 
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Daftar Informasi</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Form Permohonan</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Form Keberatan Informasi</li>
-                                    <li className="p-2 hover:bg-gray-200 cursor-pointer">Maklumat Pelayanan</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/daftar-informasi"}>Daftar Informasi</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/form-permohonan-informasi"}>Form Permohonan</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/form-keberatan-informasi"}>Form Keberatan Informasi</li>
+                                    <li className="p-2 hover:bg-gray-200 cursor-pointer" onClick={() => window.location.href = "/ppid/maklumat-pelayanan-publik"}>Maklumat Pelayanan</li>
                                 </ul>
                             )}
                         </li>

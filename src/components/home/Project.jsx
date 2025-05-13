@@ -48,10 +48,10 @@ const Project = () => {
                 className="w-full h-[230px] object-cover hover:scale-110 transition-transform duration-500"
               />
               <div className="p-2 px-3 flex-grow">
-                <h4 className="text-3xl font-bold text-white mt-2 mb-2 uppercase">
-                  {truncateText(news.title, 15, true)}
-                </h4>
-                <p className="text-white text-base overflow-hidden clamp-3-lines pb-1">
+                <h6 className="text-2xl font-bold text-white mt-2 mb-2 uppercase">
+                  {truncateText(news.title, 17, true)}
+                </h6>
+                <p className="text-gray-50 text-base overflow-hidden clamp-3-lines pb-1">
                   {truncateText(news.content, 100)}
                 </p>
               </div>

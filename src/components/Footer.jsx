@@ -63,6 +63,7 @@ const Footer = () => {
 
                 {/* Sosial Media & Kontak */}
                 <div className="flex flex-col items-center gap-4">
+                <h2 className="text-lg font-bold hover:text-slate-300">Sosial Media</h2>
                     {/* Ikon Sosial Media */}
                     <div className="flex space-x-4">
                         <a href="https://web.facebook.com/dpupr.grobogan.1?_rdc=1&_rdr#" className="text-white text-2xl hover:text-blue-500 transition"><FaFacebook /></a>
@@ -73,6 +74,7 @@ const Footer = () => {
 
                     {/* Informasi Kontak */}
                     <div className="text-sm text-center mt-4">
+                        <h2 className="text-lg font-bold mb-2 hover:text-slate-300">Kontak Kami</h2>
                         <p className="flex items-center justify-center gap-2"><FaPhone /> <span>(029) 25139140</span></p>
                         <p className="flex items-center justify-center gap-2">
                           <FaEnvelope />

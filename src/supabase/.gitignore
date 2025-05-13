@@ -1,4 +1,1 @@
 echo "src/supabase/*.json" >> .gitignore
-git add .gitignore
-git commit -m "Update .gitignore to ignore credentials"
-git push origin main
